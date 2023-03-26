@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap.rtl.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>الأنطلاق قريبًا</title>
+  </head>
+  <body>
+    <header class="text-center">
+      <div class="brand">
+        <div class="logo">
+          <img src="./images/logo.png" alt="header" />
+        </div>
+        <div class="slogo">
+          <img src="./images/logo2.png" alt="logo2" />
+        </div>
+      </div>
+      <div class="heading-page">
+        <h1>إنتظروا إنطلاق التطبيق قريباً</h1>
+        <p>
+          هو ببساطة نص شكلي لا يحتوي علي اي معلومات فقط للتجربة بمعني ان الغابة
+          هي الشكل وليس المحتوي
+        </p>
+      </div>
+      <div class="count-down">
+        <div class="counter">
+          <span class="count-amount" id="months"></span>
+          <span class="count-period">أشهر</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="days"></span>
+          <span class="count-period">أيام</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="hours"></span>
+          <span class="count-period">ساعات</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="minutes"></span>
+          <span class="count-period">دقائق</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="seconds"></span>
+          <span class="count-period">ثواني</span>
+        </div>
+      </div>
+      <div class="send-notification">
+        <p>هل تريدنا إعلامك عند إنطلاق البرنامج؟</p>
+        <form class="needs-validation" novalidate>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="...البريد الإلكتروني"
+              required
+            />
+            <button type="submit">
+              <img src="./images/send1.png" alt="send1" class="btn" />
+            </button>
+            <div class="invalid-feedback">
+              عذراً يرجي إدخال بريد إلكتروني صحيح!
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="features">
+        <div class="container">
+          <h2>مميزات اللعبة</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="/images/brush.png" alt="brush" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>تصميم أنيق وعصري</h4>
+                  <p>
+                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                    ويُستخدم في صناعات المطابع
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="/images/phone.png" alt="phone" />
+                </div>
+                <div class="flex-grow-1 me-3">
+                  <h4>اللعبة متوفرة بوضع الشاشة الممتلئ</h4>
+                  <p>
+                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                    ويُستخدم في صناعات المطابع
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="/images/phone2.png" alt="phone2" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يوجد صور لتوضيح تفاصيل اللعبة</h4>
+                  <p>
+                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                    ويُستخدم في صناعات المطابع
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="/images/connect.png" alt="connect" class="fork" />
+                </div>
+                <div class="flex-grow-1 me-3">
+                  <h4>يمكنك مشاركة اللعبة كمجموعة</h4>
+                  <p>
+                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                    ويُستخدم في صناعات المطابع
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="/images/phone3.png" alt="connect" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يمكنك ارسال الهدايا لأصدقائك عبر اللعبة</h4>
+                  <p>
+                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                    ويُستخدم في صناعات المطابع
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="/images/user.png" alt="connect" />
+                </div>
+                <div class="flex-grow-1 me-3">
+                  <h4>أضافة أصدقاء جدد للأستخدام اللعبة</h4>
+                  <p>
+                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                    ويُستخدم في صناعات المطابع
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="notification-part">
+        <h3>قم بإضافة بريدك الإلكتروني ليصلك إشعار فور الإنطلاق</h3>
+        <form class="needs-validation" novalidate>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="البريد الإلكتروني..."
+              required
+            />
+            <button type="submit">
+              <img src="./images/send2.png" alt="send2" />
+            </button>
+            <div class="invalid-feedback">
+              عذراً يرجي إدخال بريد إلكتروني صحيح!
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="social-part">
+        <h3>تابعنا على القنوات الاجتماعية</h3>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+        <hr />
+        <a href="mailto:info@example.com" class="email">
+          <i class="fa-regular fa-envelope"></i> info@example.com
+        </a>
+      </div>
+    </footer>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
